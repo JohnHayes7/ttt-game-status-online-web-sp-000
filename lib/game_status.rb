@@ -63,5 +63,5 @@ elsif board[winning_board[0]] == "O"
   puts "O"
   
   end
-end
+ end
 end
