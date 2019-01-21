@@ -59,3 +59,4 @@ def winner(board)
   elsif won(board)
     return win_combination
   end
+end
