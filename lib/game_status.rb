@@ -55,9 +55,6 @@ end
 
 def winner(board)
   if won?(board)
-    winning_board = won?(board)
-    winning_board.each do |value|
-      puts "#{value}"
-    end
+    
   end
 end
