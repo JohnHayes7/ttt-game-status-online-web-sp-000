@@ -58,6 +58,8 @@ def winner(board)
     winning_board = won?(board)
   end
   if board[winning_board[0]] == "X"
-    puts
+    puts "X"
+  elsif board[winning_board[0]] == "O"
+  puts "O"
   end
 end
