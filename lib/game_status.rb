@@ -54,12 +54,11 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    winning_board = won?(board)
-  end
-  if board[winning_board[0]] == "X"
-    puts "X"
-  elsif board[winning_board[0]] == "O"
+winning_board = won?(board)
+
+if board[winning_board[0]] == "X"
+  puts "X"
+elsif board[winning_board[0]] == "O"
   puts "O"
   end
 end
