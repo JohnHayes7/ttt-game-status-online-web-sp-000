@@ -56,6 +56,8 @@ end
 def winner(board)
   if won?(board)
     winning_board = won?(board)
-    return winning_board
+  end
+  if board[winning_board[0]] == "X"
+    puts
   end
 end
